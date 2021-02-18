@@ -1,0 +1,18 @@
+server:
+  port: 8080
+#  servlet:
+#    context-path: auu
+spring:
+  application:
+    name: oauth2
+  datasource:
+    url: jdbc:mysql://192.168.56.10:3306/oauth2?useUnicode=true&characterEncoding=utf-8&serverTimezone=Asia/Shanghai
+    username: root
+    password: root
+  main:
+    allow-bean-definition-overriding: true
+#management:
+#  endpoints:
+#    web:
+#      exposure:
+#        include: "*"
